@@ -25,6 +25,9 @@
   color: #000;
   max-width: 5ch;
 }
+.subtitulo{
+    max-width: 4ch;
+}
 .formacao-texto {
   font-size: 1.5rem;
   line-height: 1.33;
