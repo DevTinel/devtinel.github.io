@@ -34,8 +34,13 @@
 @media(max-width:800px){
     .footer-container{
         grid-template-columns: 1fr;
+        
     }
     .footer-contato li{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
         font-size: 1.5rem;
     }
+    
 }
