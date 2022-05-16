@@ -6,10 +6,12 @@
     border-radius:4px ;
     margin: 0 auto;
     color: black;
+    text-align: center;
 
 }
 @media(max-width: 500px){
     .bikecraft{
+        text-align: center;
         text-decoration: none;
         background-color: #fff;
         color: black;
