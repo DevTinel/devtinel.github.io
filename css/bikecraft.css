@@ -5,4 +5,14 @@
     width: min-content;
     border-radius:4px ;
     margin: 0 auto;
+    color: black;
+
+}
+@media(max-width: 500px){
+    .bikecraft{
+        text-decoration: none;
+        background-color: #fff;
+        color: black;
+        
+    }
 }
