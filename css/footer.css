@@ -15,6 +15,7 @@
     line-height: 1.33;
     color: #ccc;
 }
+
 .footer-contato li{
     font-weight: bold;
     font-size: 2.25rem;
@@ -40,6 +41,15 @@
     width: 50px;
     background-color: #fff;
     border-radius: 50% ;
+    border: 1px solid transparent;
+}
+.git:hover,.linke:hover,.inst:hover,.tele:hover,.emai:hover,.whats:hover{
+    padding: 5px;
+    width: 80px;
+    transition: 0.8s;
+    border-radius: 50% ;
+    border: 3px solid transparent;
+    border-color: yellowgreen;
 }
 
 @media(max-width:800px){
@@ -54,4 +64,8 @@
         font-size: 1.5rem;
     }
     
+}@media(max-width:600px){
+    .footer-contato a {
+        font-size: 15px;
+    }
 }
