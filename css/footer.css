@@ -31,6 +31,17 @@
     color: #8f8f8f;
     grid-column: 1/-1;
 }
+.github,.linkedin,.insta,.tel,.email{
+    align-items: center;
+    gap: 0 20px;
+    display: flex;
+}
+.git,.linke,.inst,.tele,.emai{
+    width: 50px;
+    background-color: #fff;
+    border-radius: 50% ;
+}
+
 @media(max-width:800px){
     .footer-container{
         grid-template-columns: 1fr;
