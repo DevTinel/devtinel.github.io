@@ -75,7 +75,7 @@
   height: max-content;
   padding: 20px;
   border: 1px solid transparent;
-  transition: 0.5s;
+  transition: 0.8s;
 }
 .footer-container ul a:hover {
   color: yellowgreen;
