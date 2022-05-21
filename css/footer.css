@@ -1,71 +1,106 @@
-.footer{
-    background: #000000;
+.footer {
+  background: #000000;
 }
-.footer-container{
-    max-width: 1200px;
-    padding: 120px 20px 60px 20px;
-    margin: 0 auto;
-    display:grid;
-    gap: 100px;
-    grid-template-columns: 1fr 1fr;
+.footer-container {
+  max-width: 1200px;
+  padding: 120px 20px 60px 20px;
+  margin: 0 auto;
+  display: grid;
+  gap: 100px;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+.footer-texto {
+  font-size: 1.5rem;
+  line-height: 1.33;
+  color: #ccc;
+}
+
+.footer-contato li {
+  font-weight: bold;
+  font-size: 2.25rem;
+  line-height: 1.1;
+  color: #fff;
+  margin-bottom: 30px;
+}
+.footer-contato li a {
+  color: #fff;
+  text-decoration: none;
+}
+.copy {
+  font-size: 1.125rem;
+  color: #8f8f8f;
+  grid-column: 1/-1;
+  text-align: center;
+}
+.footer-container ul {
+  box-sizing: border-box;
+  padding-left: 50px;
+  border-left: 1px solid rgb(105, 104, 104);
+}
+.copy:hover {
+  color: yellowgreen;
+}
+.github,
+.linkedin,
+.insta,
+.tel,
+.email,
+.whatsapp {
+  align-items: left;
+  margin: 0 auto;
+  gap: 0 20px;
+  display: flex;
+  width: max-content;
+}
+
+/* icones */
+.git,
+.linke,
+.inst,
+.tele,
+.emai,
+.whats {
+  width: 50px;
+  background-color: #fff;
+  border-radius: 50%;
+  border: 1px solid transparent;
+}
+.github:hover,
+.linkedin:hover,
+.insta:hover,
+.tel:hover,
+.email:hover,
+.whatsapp:hover {
+  height: max-content;
+  padding: 20px;
+  border: 1px solid transparent;
+  transition: 0.5s;
+}
+.footer-container ul a:hover {
+  color: yellowgreen;
+}
+@media (max-width: 1200px) {
+  .footer-container ul a {
+    font-size: 20px;
+  }
+}
+@media (max-width: 800px) {
+  .footer-container {
+    grid-template-columns: 1fr;
+  }
+  .footer-contato li {
+    justify-content: center;
     align-items: center;
-}
-.footer-texto{
+    text-align: center;
     font-size: 1.5rem;
-    line-height: 1.33;
-    color: #ccc;
+  }
+  .footer-container ul {
+    border-left: none;
+  }
 }
-
-.footer-contato li{
-    font-weight: bold;
-    font-size: 2.25rem;
-    line-height: 1.1;
-    color: #fff;
-    margin-bottom: 30px;
-}
-.footer-contato li a{
-    color: #fff;
-    text-decoration: none;
-}
-.copy{
-    font-size: 1.125rem;
-    color: #8f8f8f;
-    grid-column: 1/-1;
-}
-.github,.linkedin,.insta,.tel,.email,.whatsapp{
-    align-items: center;
-    gap: 0 20px;
-    display: flex;
-}
-.git,.linke,.inst,.tele,.emai,.whats{
-    width: 50px;
-    background-color: #fff;
-    border-radius: 50% ;
-    border: 1px solid transparent;
-}
-.git:hover,.linke:hover,.inst:hover,.tele:hover,.emai:hover,.whats:hover{
-    padding: 5px;
-    width: 80px;
-    transition: 0.8s;
-    border-radius: 50% ;
-    border: 3px solid transparent;
-    border-color: yellowgreen;
-}
-
-@media(max-width:800px){
-    .footer-container{
-        grid-template-columns: 1fr;
-        
-    }
-    .footer-contato li{
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        font-size: 1.5rem;
-    }
-    
-}@media(max-width:600px){
-    .footer-contato a {
-        font-size: 15px;
-    }
+@media (max-width: 600px) {
+  .footer-contato a {
+    font-size: 15px;
+  }
 }
