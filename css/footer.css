@@ -48,10 +48,8 @@
 .email,
 .whatsapp {
   align-items: left;
-  margin: 0 auto;
   gap: 0 20px;
   display: flex;
-  width: max-content;
 }
 
 /* icones */
@@ -90,7 +88,7 @@
     grid-template-columns: 1fr;
   }
   .footer-contato li {
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     text-align: center;
     font-size: 1.5rem;
