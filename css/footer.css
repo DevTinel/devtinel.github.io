@@ -9,7 +9,21 @@
   gap: 100px;
   grid-template-columns: 1fr 1fr;
   align-items: center;
+  animation: slide 5s ;
 }
+@keyframes slide{
+  from{
+    opacity: 0;
+    transform: matrix3d(-40px,0,0);
+
+  }
+  to{
+    opacity: 1;
+    transform: matrix3d(0,0,0);
+
+  }
+}
+
 .footer-texto {
   font-size: 1.5rem;
   line-height: 1.33;
