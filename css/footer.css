@@ -101,4 +101,8 @@
   .footer-contato a {
     font-size: 15px;
   }
+  .footer-container ul {
+    box-sizing: border-box;
+    padding-left: 0px;
+}
 }
