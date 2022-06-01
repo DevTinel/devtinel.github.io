@@ -5,19 +5,8 @@
   display: grid;
   gap: 100px;
   grid-template-columns: 1fr 2fr;
-  animation: animation2 4s;
 }
-@keyframes animation2{
-  from{
-    opacity: 0;
-    width : 300px
-  }
-  to{
-    opacity: 1;
 
-    width: 100%;
-  }
-}
 .experiencia .subtitulo {
   color: #e0e0e0;
 }
