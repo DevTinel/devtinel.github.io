@@ -7,6 +7,7 @@
     margin: 0 auto;
     color: black;
     text-align: center;
+    animation:  slideright 2s forwards;
 
 }
 @media(max-width: 500px){
@@ -16,5 +17,16 @@
         background-color: #fff;
         color: black;
         
+    }
+}
+@keyframes slideright{
+    from{
+        opacity: 0;
+        transform: translate3d(130px,0,0);
+    }
+    to{
+        opacity: 1;
+        transform: translate3d(0,0,0);
+
     }
 }

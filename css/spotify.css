@@ -1,0 +1,25 @@
+.spotify {
+    display: block;
+    text-decoration: none;
+    background-color: #fff;
+    padding: 10px;
+    width: max-content;
+    border-radius:4px ;
+    margin: 0 auto;
+    color: black;
+    text-align: center;
+    animation: slide 2s forwards;
+}
+
+
+@keyframes slide {
+    from{
+        opacity: 0;
+        transform: translate3d(-130px,0,0);
+    }
+    to{
+        opacity: 1;
+        transform: translate3d(0,0,0);
+
+    }
+}
